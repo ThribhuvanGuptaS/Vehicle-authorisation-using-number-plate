@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OwnerDetailsActivity">
+
+    <include
+        android:id="@+id/register_toolbar"
+        layout="@layout/app_bar_layout" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="80dp"
+        android:padding="20dp"
+        android:text="Enter your details"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/owner_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:hint="@string/name"
+        android:inputType="" android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/contact_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/owner_name"
+        android:layout_margin="8dp"
+
+        android:hint="Contact number"
+        android:inputType="" android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/car_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_number"
+        android:layout_margin="8dp"
+        android:hint="Car Number"
+        android:inputType="" android:padding="20dp" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/car_number"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:text="done"
+        android:background="#B22222"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:id="@+id/entry_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/done"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:layout_margin="8dp"
+        android:text="Entry page"
+        android:background="#B22222"
+        android:textColor="#ffffff"
+        />
+
+
+</RelativeLayout>

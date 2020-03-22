@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">NumDecC</string>
+    <string name="log_out">Log Out</string>
+    <string name="create_account">create account</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="welcome_to_roomie">Welcome to Friends Chat!!</string>
+    <string name="need_a_new_account">need a new account?</string>
+    <string name="settings">Settings</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="login_to_your_account">Login to your Account</string>
+    <string name="login">Login</string>
+    <string name="already_have_account">Already Have Account</string>
+    <string name="requests">Requests</string>
+    <string name="chats">Chats</string>
+    <string name="friends">Friends</string>
+    <string name="username">Username</string>
+    <string name="hi_there_i_m_using_friendchat">Hi there, I\'m using friendchat</string>
+
+    <string name="change_image">change image</string>
+
+    <string name="change_status">change status</string>
+    <string name="all_users">All Users</string>
+
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all pet data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Pets</string>
+
+    <!-- Title for the activity to add a new pet [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_pet">Add a Pet</string>
+
+    <!-- Label for editor menu option to save pet and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for gender information in the editor [CHAR LIMIT=30] -->
+    <string name="category_gender">Gender</string>
+
+    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
+    <string name="category_measurement">Measurement</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_pet_name">Name</string>
+
+    <!-- Text hint for breed field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_pet_breed">Breed</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_pet_weight">Weight</string>
+
+    <!-- Units for weight of the pet (kilograms) [CHAR LIMIT=5] -->
+    <string name="unit_pet_weight">kg</string>
+
+    <!-- Label for dropdown menu option if the pet's gender is unknown [CHAR LIMIT=20] -->
+    <string name="gender_unknown">Unknown</string>
+
+    <!-- Label for dropdown menu option if the pet is male [CHAR LIMIT=20] -->
+    <string name="gender_male">Male</string>
+
+    <!-- Label for dropdown menu option if the pet is female [CHAR LIMIT=20] -->
+    <string name="gender_female">Female</string>
+
+
+</resources>
